@@ -16,9 +16,3 @@ it('displays congratulations when "Click Me" button is clicked', ()=>{
   home.find('button#click_me').simulate('click')
   expect(home.find('#flash_message').text()).toEqual('Congratulations! You are the 1 millionth clicker of this button!')
 })
-
-it('captures input', ()=>{
-  const home = mount(<Home />)
-  home.find('#type_here').simulate('change', { target: { value: 'hello You!'}})
-  expect(home.find('#input_value').text()).toEqual('hello You!')
-})

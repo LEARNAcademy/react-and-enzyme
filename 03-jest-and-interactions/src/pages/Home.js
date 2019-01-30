@@ -5,12 +5,11 @@ class Home extends Component {
     super(props)
     this.state = {
       flashMessage: '',
-      inputValue: '',
     }
   }
 
   render() {
-    const{ flashMessage, inputValue } = this.state
+    const{ flashMessage } = this.state
     const message = 'Congratulations! You are the 1 millionth clicker of this button!'
     return(
       <div>
@@ -19,13 +18,6 @@ class Home extends Component {
           id="click_me"
           onClick={ () => this.setState({ flashMessage: message}) }
         >Click Me!</button>
-        <input
-          id="type_here"
-          name="type_here"
-          value={this.state.inputValue}
-          onChange={(e)=> this.setState({ inputValue: e.target.value})}
-        />
-        <div id="input_value">{inputValue}</div>
       </div>
     )
   }

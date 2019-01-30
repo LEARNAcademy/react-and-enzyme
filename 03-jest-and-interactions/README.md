@@ -94,7 +94,7 @@ Green is good, we're getting somewhere now!
 
 ## Adding Interaction
 
-Its time to add an interaction to the button.  We'd better make a new failing test:
+It's time to add an interaction to the button.  We'd better make a new failing test:
 
 ```javascript
 it('displays congratulations when "Click Me" button is clicked', ()=>{
@@ -143,7 +143,7 @@ cat src/pages/Home.js
 ```
 
 ## Time to Refactor
-Now that we have 100% test coverage of our code, we are free to refactor.  And, in fact, we take a look at our code, and decide that the ```handleClick``` function is just too wordy.  We'd rather do this as an anyonymous function.  With Test coverage, we can confidently, and safely do any changes we wish.
+Now that we have 100% test coverage of our code, we are free to refactor.  And, in fact, we take a look at our code, and decide that the ```handleClick``` function is just too wordy.  We'd rather do this as an anonymous function.  With Test coverage, we can confidently, and safely do any changes we wish.
 
 Here's the refactored code, and our test is still green.
 
