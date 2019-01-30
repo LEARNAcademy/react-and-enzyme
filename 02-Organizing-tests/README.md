@@ -2,7 +2,7 @@
 
 One of the great things about Jest is how easy it makes it for us to organize our files. Most tests will be testing code in one file, so we want to keep them as close to each other as possible in our directory.  With Jest, we can create a directory anywhere we like, and if we name it '__tests__', Jest will look in there and run any tests it fines.
 
-Imagine, as an example our 'jest-example' application.  It's file structure currenlty looks like this:
+Imagine, as an example our 'jest-example' application.  It's file structure currently looks like this:
 
 ![react-files](https://s3.amazonaws.com/learn-site/curriculum/testing-react/react-directory.png)
 
